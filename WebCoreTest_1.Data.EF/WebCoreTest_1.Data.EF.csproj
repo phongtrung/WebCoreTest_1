@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Configurations\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WebCoreTest_1.Data\WebCoreTest_1.Data.csproj" />
+    <ProjectReference Include="..\WebCoreTest_1.Infrastructure\WebCoreTest_1.Infrastructure.csproj" />
+    <ProjectReference Include="..\WebCoreTest_1.Utilities\WebCoreTest_1.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>

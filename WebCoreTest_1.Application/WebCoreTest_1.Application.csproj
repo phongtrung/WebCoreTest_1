@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+    <Folder Include="Implementation\" />
+    <Folder Include="AutoMapper\" />
+    <Folder Include="ViewModels\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WebCoreTest_1.Data.EF\WebCoreTest_1.Data.EF.csproj" />
+    <ProjectReference Include="..\WebCoreTest_1.Data\WebCoreTest_1.Data.csproj" />
+    <ProjectReference Include="..\WebCoreTest_1.Utilities\WebCoreTest_1.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>
